@@ -1,3 +1,4 @@
+/*
 function theBeatlesPlay(musiciansArray, instrumentArray){
   //Creates an empty array stored in a variable
   var newArray1 = [];
@@ -9,6 +10,20 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   for (var i =0; i < arrayLength ; ++i){
     var string1 = newArray1[i];
     var string2 = newArray2[i];
+    var newString = string1 + " plays " + string2;
+    newArray.push(newString);
+  }
+  return newArray;
+}*/
+
+function theBeatlesPlay(musiciansArray, instrumentArray){
+  //Creates an empty array stored in a variable
+  var newArray = [];
+  var arrayLength = musiciansArray.length;
+  
+  for (var i =0; i < arrayLength ; ++i){
+    var string1 = musiciansArray[i];
+    var string2 = instrumentArray[i];
     var newString = string1 + " plays " + string2;
     newArray.push(newString);
   }
