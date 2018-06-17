@@ -5,7 +5,7 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   var newArray = [];
   newArray1 = musiciansArray.slice(0);
   newArray2 = instrumentArray.slice(0);
-  arrayLength = musiciansArray.length;
+  var arrayLength = musiciansArray.length;
   for (var i =0; i < arrayLength ; ++i){
     var string1 = newArray1[i];
     var string2 = newArray2[i];
