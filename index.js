@@ -14,14 +14,20 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   return newArray;
 }
 
-/*function johnLennonFacts(factsArray){
+function johnLennonFacts(factsArray){
   var i = 0;
+  var newFacts = [];
+  var newString = [];
+  newFacts = factsArray.slice(0);
   while (factsArray.length > 0){
-    factsArray[i] = factsArray[i] + "!!!";
+    string1 = factsArray[i];
+    string2 = "!!!";
+    newString[i] = "${string1} ${string2}";
+    newFacts.push(newString[i]);
     i++;
   }
-  return factsArray;
-}*/
+  return newFacts;
+}
 
 function iLoveTheBeatles(number){
   var NewArray = [];
