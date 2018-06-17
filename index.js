@@ -9,8 +9,8 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   for (var i =0; i < musiciansArray.lenth; ++i){
     var string1 = newArray1[i];
     var string2 = newArray2[i];
-    newString[i] = "${string1} plays ${string2}";
-    newArray.push(NewString[i]);
+    newString = "${string1} plays ${string2}";
+    newArray.push(NewString);
   }
   return newArray;
 }
