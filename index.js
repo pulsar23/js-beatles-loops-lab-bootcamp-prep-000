@@ -19,6 +19,7 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   var i = 0;
   var newFacts = [];
   var newString = [];
+  var arrayLength = factsArray.length;
   newFacts = factsArray.slice(0);
   var string2 = "!!!";
   
