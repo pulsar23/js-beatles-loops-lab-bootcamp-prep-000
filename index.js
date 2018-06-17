@@ -2,15 +2,14 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   //Creates an empty array stored in a variable
   var newArray1 = [];
   var newArray2 = [];
-  var newString = [];
   var newArray = [];
   newArray1 = musiciansArray.slice(0);
   newArray2 = instrumentArray.slice(0);
   for (var i =0; i < musiciansArray.lenth; ++i){
     var string1 = newArray1[i];
     var string2 = newArray2[i];
-    newString = "${string1} plays ${string2}";
-    newArray.push(NewString);
+    var newString = "${string1} plays ${string2}";
+    newArray.push(newString);
   }
   return newArray;
 }
