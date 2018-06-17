@@ -31,11 +31,12 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
 }
 
 function johnLennonFacts(factsArray){
-  var i = factsArray.length;
+  var i = 0;
+  arrayLength = factsArray.length;
   var string2 = "!!!";
   var updateFacts = [];
   
-  while (i > 0){
+  while (i < arrayLength){
     var string1 = factsArray[i];
     var newString = string1 + string2;
     updateFacts.push(newString);
