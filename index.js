@@ -30,20 +30,19 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   return newArray;
 }
 
-/*function johnLennonFacts(factsArray){
+function johnLennonFacts(factsArray){
   var i = factsArray.length;
-  var addFacts = factsArray.slice(0);
   var string2 = "!!!";
   var updateFacts = [];
   
   while (i > 0){
-    var string1 = addFacts[i];
-    [i] = string1 + string2;
-    newFacts.push(newString[i]);
+    var string1 = factsArray[i];
+    var newString = string1 + string2;
+    newFacts.push(newString);
     i++;
   }
   return newFacts;
-}*/
+}
 
 function iLoveTheBeatles(number){
   var NewArray = [];
