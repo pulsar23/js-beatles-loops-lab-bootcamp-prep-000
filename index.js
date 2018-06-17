@@ -19,10 +19,10 @@ function johnLennonFacts(factsArray){
   var newFacts = [];
   var newString = [];
   newFacts = factsArray.slice(0);
+  var string2 = "!!!";
   
   while (factsArray.length > 0){
     var string1 = factsArray[i];
-    string2 = "!!!";
     newString[i] = "${string1} ${string2}";
     newFacts.push(newString[i]);
     i++;
