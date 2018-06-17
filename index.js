@@ -32,7 +32,7 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
 
 function johnLennonFacts(factsArray){
   var i = 0;
-  arrayLength = factsArray.length;
+  var arrayLength = factsArray.length;
   var string2 = "!!!";
   var updateFacts = [];
   
