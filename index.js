@@ -38,10 +38,10 @@ function johnLennonFacts(factsArray){
   while (i > 0){
     var string1 = factsArray[i];
     var newString = string1 + string2;
-    newFacts.push(newString);
+    updateFacts.push(newString);
     i++;
   }
-  return newFacts;
+  return updateFacts;
 }
 
 function iLoveTheBeatles(number){
