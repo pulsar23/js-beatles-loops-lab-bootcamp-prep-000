@@ -23,7 +23,7 @@ function johnLennonFacts(factsArray){
   
   while (factsArray.length > 0){
     var string1 = factsArray[i];
-    newString[i] = ${string1}+ ${string2};
+    newString[i] = string1 + string2;
     newFacts.push(newString[i]);
     i++;
   }
