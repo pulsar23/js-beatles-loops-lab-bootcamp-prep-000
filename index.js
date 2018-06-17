@@ -14,7 +14,7 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   return newArray;
 }
 
-function johnLennonFacts(factsArray){
+/*function johnLennonFacts(factsArray){
   var i = 0;
   var newFacts = [];
   var newString = [];
@@ -28,9 +28,9 @@ function johnLennonFacts(factsArray){
     i++;
   }
   return newFacts;
-}
+}*/
 
-/*function iLoveTheBeatles(number){
+function iLoveTheBeatles(number){
   var NewArray = [];
   var string1 = "I love the Beatles!";
   do{
@@ -38,4 +38,4 @@ function johnLennonFacts(factsArray){
     number++;
   } while (number < 15);
   return NewArray;
-}*/
+}
