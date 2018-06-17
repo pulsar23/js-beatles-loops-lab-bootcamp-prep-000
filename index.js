@@ -1,6 +1,7 @@
 function theBeatlesPlay(musiciansArray, instrumentArray){
   //Creates an empty array stored in a variable
   var newArray = [];
+  var newArray = musiciansArray.slice();
   for (var i =0; i < musiciansArray.lenth; ++i){
     var string1 = musiciansArray[i];
     var string2 = instrumentsArray[i];
