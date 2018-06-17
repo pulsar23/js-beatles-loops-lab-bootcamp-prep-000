@@ -2,8 +2,10 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
   //Creates an empty array stored in a variable
   var newArray = [];
   for (var i =0; i < musiciansArray.lenth; ++i){
-    var string1 = "${musiciansArray[i]} plays ${instrumentsArray[i]}";
-    newArray.push(string);
+    var string1 = musiciansArray[i];
+    var string2 = instrumentsArray[i];
+    var newString = "${string1} plays ${string2}";
+    newArray.push(NewString);
   }
   return newArray;
 }
