@@ -16,16 +16,14 @@ function theBeatlesPlay(musiciansArray, instrumentArray){
 }
 
 /*function johnLennonFacts(factsArray){
-  var i = 0;
-  var newFacts = [];
-  var newString = [];
-  var arrayLength = factsArray.length;
-  newFacts = factsArray.slice(0);
+  var i = factsArray.length;
+  var addFacts = factsArray.slice(0);
   var string2 = "!!!";
+  var updateFacts = [];
   
-  while (factsArray.length > 0){
-    var string1 = factsArray[i];
-    newString[i] = string1 + string2;
+  while (i > 0){
+    var string1 = addFacts[i];
+    [i] = string1 + string2;
     newFacts.push(newString[i]);
     i++;
   }
